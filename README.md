@@ -3,14 +3,14 @@ En el repositorio se encuentran todos los proyectos, tareas y ejercicios en los 
 En cada uno de los archivos se puede encontrar el código, un video de demostración de la ejecución, profiling y pruebas unitarias.
 
 # Contenido
-1. [Práctica 1]  (#Practice1)
+1. [Práctica 1]  (#Práctica-1)
 
 # Práctica 1
 - Algoritmo en donde se puede calcular la suma de los primeros numeros de 'N' que el usuario ingrese.
 - **Prueba Unitaria** unittest
 - **Profiling** comando cProfile
 
-# Cómo ejecutarlo?
+## Cómo ejecutarlo?
 1. Encontrar el file con el código del algoritmo
 ```
 cd Practice1
@@ -38,6 +38,6 @@ cd pruebaUnitaria.py
 python3 pruebaUnitaria.py
 ```
 
-# Recursos
+## Recursos
 - https://realpython.com/python-testing/ 
 - https://www.machinelearningplus.com/python/cprofile-how-to-profile-your-python-code/ 
