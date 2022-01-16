@@ -3,9 +3,9 @@ En el repositorio se encuentran todos los proyectos, tareas y ejercicios en los 
 En cada uno de los archivos se puede encontrar el código, un video de demostración de la ejecución, profiling y pruebas unitarias.
 
 # Contenido
-1. [Práctica 1]  (#Práctica-1)
+1. [Práctica 1](#Practica-1)
 
-# Práctica 1
+# Practica 1
 - Algoritmo en donde se puede calcular la suma de los primeros numeros de 'N' que el usuario ingrese.
 - **Prueba Unitaria** unittest
 - **Profiling** comando cProfile
