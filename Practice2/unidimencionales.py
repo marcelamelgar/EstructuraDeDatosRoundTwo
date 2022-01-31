@@ -126,33 +126,38 @@ while True:
             print(f"\t{creditos[j]}")
 
         print("\nSE ELIMINA CREDITO\n")
+        salir = 's'
+
+        while (salir == 's'):
     
-        borrar = float(input("ingrese el monto del credito que quiere eliminar: "))
-        creditos = np.delete(creditos, np.where(creditos == borrar))
+            borrar = float(input("ingrese el monto del credito que quiere eliminar: "))
+            creditos = np.delete(creditos, np.where(creditos == borrar))
 
-        print("----------------------------------------")
-        print("Total Debitos: ")
-        print(f"{np.sum(debitos)}\n")
-        print("Total Creditos: ")
-        print(f"{np.sum(creditos)}\n")
-        print("Saldo: ")
-        saldo = np.sum(creditos) - np.sum(debitos)
-        print(f"{saldo}\n")
-        print("Promedio Debitos: ")
-        promedio =  Promedio(debitos)
-        print(f"{round(promedio,2)}\n")
-        print("Debito Mayor\n")
-        print(f"{np.max(debitos)}\n")
-        print("Estado de Cuenta:\n")
-        print("\tDebitos")
-        print("~~~~~~~~~~~~~~~~~~~~~")
-        for i in range(debitos.size):
-            print(f"\t{debitos[i]}\n")
-        print("\n\tCreditos")
-        print("~~~~~~~~~~~~~~~~~~~~~")
-        for j in range(creditos.size):
-            print(f"\t{creditos[j]}\n")
+            print("----------------------------------------")
+            print("Total Debitos: ")
+            print(f"{np.sum(debitos)}\n")
+            print("Total Creditos: ")
+            print(f"{np.sum(creditos)}\n")
+            print("Saldo: ")
+            saldo = np.sum(creditos) - np.sum(debitos)
+            print(f"{saldo}\n")
+            print("Promedio Debitos: ")
+            promedio =  Promedio(debitos)
+            print(f"{round(promedio,2)}\n")
+            print("Debito Mayor\n")
+            print(f"{np.max(debitos)}\n")
+            print("Estado de Cuenta:\n")
+            print("\tDebitos")
+            print("~~~~~~~~~~~~~~~~~~~~~")
+            for i in range(debitos.size):
+                print(f"\t{debitos[i]}\n")
+            print("\n\tCreditos")
+            print("~~~~~~~~~~~~~~~~~~~~~")
+            for j in range(creditos.size):
+                print(f"\t{creditos[j]}\n")
 
-        print("----------------------------------------")
+            print("----------------------------------------")
+
+            salir = input("si desea continuar eliminando presione 's'\nsi ya no desea eliminar otro credito, presione 'n'\n")
 
         regresoMenu()
