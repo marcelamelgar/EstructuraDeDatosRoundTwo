@@ -5,6 +5,7 @@ En cada uno de los archivos se puede encontrar el código, un video de demostrac
 # Contenido
 1. [Práctica 1](#Practica-1)
 2. [Práctica 2](#Practica-2)
+3. [Práctica 3](#Practica-3)
 
 # Practica 1
 - Algoritmo en donde se puede calcular la suma de los primeros numeros de 'N' que el usuario ingrese.
@@ -108,3 +109,40 @@ pytest
 
 ## Recursos
 - https://realpython.com/numpy-tutorial/
+
+# Practica 3
+- Algoritmo en donde se puede encontrar cuál es el cuadrante de una coordenada, en base a su posicion en el eje x y en el eje y.
+- **Prueba Unitaria** pytest
+- **Profiling** cProfile
+
+## Cómo ejecutarlo?
+1. Encontrar el file con el código del algoritmo
+```
+cd Practice3
+cd cuadrant.py
+```
+
+2. Ejecutar el algoritmo
+```
+python3 cuadrant.py
+```
+
+3. Para realizar el Profiling ejecute el algoritmo del file correspondiente
+```
+python3 profiling.py
+```
+
+4. Para realizar la Prueba Unitaria encuentre el file
+```
+cd test_cuadrante.py
+pytest
+```
+
+5. Ejecute desde comando
+```
+pytest
+```
+
+## Recursos
+- https://realpython.com/python-data-classes/
+- https://stackoverflow.com/questions/582336/how-can-you-profile-a-python-script
