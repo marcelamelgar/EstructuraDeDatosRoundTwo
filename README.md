@@ -156,7 +156,7 @@ pytest
 ## Cómo ejecutarlo?
 1. Encontrar el file 'main.py' para poder correr el api.
 ```
-cd TrabajoenClase
+cd TrabajoEnClase
 ```
 
 2. Correr aplicación ejecutando el siguiente comando
