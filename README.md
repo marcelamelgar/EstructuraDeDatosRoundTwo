@@ -6,6 +6,7 @@ En cada uno de los archivos se puede encontrar el código, un video de demostrac
 1. [Práctica 1](#Practica-1)
 2. [Práctica 2](#Practica-2)
 3. [Práctica 3](#Practica-3)
+4. [Trabajo en Clase](#Trabajo-en-Clase)
 
 # Practica 1
 - Algoritmo en donde se puede calcular la suma de los primeros numeros de 'N' que el usuario ingrese.
@@ -146,3 +147,25 @@ pytest
 ## Recursos
 - https://realpython.com/python-data-classes/
 - https://stackoverflow.com/questions/582336/how-can-you-profile-a-python-script
+
+# Trabajo en Clase
+- API utilizando FastAPI para poderlo correr. Cuenta con funciones y llamadas de HTTP Requests, tales como GET, POST y PUT.
+- **Requests** Postman
+- El folder cuenta con un documento PDF en el que se pueden encontrar los screenshot de los Requests ejecutados en Postman.
+
+## Cómo ejecutarlo?
+1. Encontrar el file 'main.py' para poder correr el api.
+```
+cd TrabajoenClase
+```
+
+2. Correr aplicación ejecutando el siguiente comando
+```
+uvicorn main:app --reload
+```
+
+3. Interactuar con los distintos paths para poder ver cada Request.
+
+## Recursos
+- https://learning.postman.com/docs/sending-requests/requests/
+- https://realpython.com/fastapi-python-web-apis/
