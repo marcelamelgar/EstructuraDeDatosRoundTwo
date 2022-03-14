@@ -7,6 +7,7 @@ En cada uno de los archivos se puede encontrar el código, un video de demostrac
 2. [Práctica 2](#Practica-2)
 3. [Práctica 3](#Practica-3)
 4. [Trabajo en Clase](#Trabajo-en-Clase)
+5. [Práctica 5](#Practica-5)
 
 # Practica 1
 - Algoritmo en donde se puede calcular la suma de los primeros numeros de 'N' que el usuario ingrese.
@@ -169,3 +170,35 @@ uvicorn main:app --reload
 ## Recursos
 - https://learning.postman.com/docs/sending-requests/requests/
 - https://realpython.com/fastapi-python-web-apis/
+
+# Practica 5
+- Algoritmo en donde se hace un queue de empleados repartidores, se ordenan y se eliminan conforme sean elegidos
+- **Prueba Unitaria** pytest
+- **Profiling** comando cProfile
+
+## Cómo ejecutarlo?
+1. Encontrar el file con el código del algoritmo
+```
+cd Practice5
+cd queue.py
+```
+
+2. Ejecutar el algoritmo
+```
+python3 queue.py
+```
+
+3. Para realizar el Profiling ejecute lo siguiente
+```
+python3 -m cProfile queue.py
+```
+
+4. Para realizar la Prueba Unitaria dirijase a el file en donde se encuentra el mismo
+```
+cd test_queue.py
+```
+
+5. escriba el siguiente comando
+```
+pytest
+```
