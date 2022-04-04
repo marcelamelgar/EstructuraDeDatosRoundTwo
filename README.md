@@ -228,5 +228,8 @@ cd profiling.py
 python3 profiling.py
 ```
 
+## Presentación
+- https://view.genial.ly/624b75544d077a0012f96d27/presentation-binarysearchtree
+
 ## Recursos
 - https://www.geeksforgeeks.org/difference-between-binary-tree-and-binary-search-tree/ 
