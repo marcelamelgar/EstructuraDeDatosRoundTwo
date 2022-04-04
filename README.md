@@ -202,3 +202,30 @@ cd test_queue.py
 ```
 pytest
 ```
+
+# Practica Binary Search Tree
+- Algoritmo en donde se vizualiza y se interactúa con el funcionamiento de un Binary Search Tree. Cuenta con insert, search  y delete.
+- **Profiling** cProfile
+
+## Cómo ejecutarlo?
+1. Encontrar el file con el código del algoritmo
+```
+cd PracticeTree
+cd binary_tree.py
+```
+
+2. Ejecutar el algoritmo
+```
+python3 binary_tree.py
+```
+
+3. Para realizar el Profiling ejecute lo siguiente
+```
+cd profiling.py
+```
+```
+python3 profiling.py
+```
+
+## Recursos
+- https://www.geeksforgeeks.org/difference-between-binary-tree-and-binary-search-tree/ 
