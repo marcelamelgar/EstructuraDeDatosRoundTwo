@@ -9,6 +9,7 @@ En cada uno de los archivos se puede encontrar el código, un video de demostrac
 4. [Trabajo en Clase](#Trabajo-en-Clase)
 5. [Práctica 5](#Practica-5)
 6. [Práctica Tree](#Practica-Binary-Search-Tree)
+7. [Práctica Heap](#Practica-Fibonacci-Heap)
 
 # Practica 1
 - Algoritmo en donde se puede calcular la suma de los primeros numeros de 'N' que el usuario ingrese.
@@ -233,3 +234,33 @@ python3 profiling.py
 
 ## Recursos
 - https://www.geeksforgeeks.org/difference-between-binary-tree-and-binary-search-tree/ 
+
+# Practica Fibonacci Heap
+- Algoritmo en donde se interactua con el funcionamiento del fibonacci heap. Se busca y se elimina el valor minimo dentro del heap.
+- **Profiling** cProfile
+
+## Cómo ejecutarlo?
+1. Encontrar el file con el código del algoritmo
+```
+cd PracticeHeap
+cd FibonacciHeap.py
+```
+
+2. Ejecutar el algoritmo
+```
+python3 FibonacciHeap.py
+```
+
+3. Para realizar el Profiling ejecute lo siguiente
+```
+cd profiling.py
+```
+```
+python3 profiling.py
+```
+
+## Presentación
+- https://view.genial.ly/6266adc44f44040019e7758e/presentation-fibonacciheap
+
+## Recursos
+- https://www.programiz.com/dsa/fibonacci-heap 
