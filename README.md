@@ -8,6 +8,7 @@ En cada uno de los archivos se puede encontrar el código, un video de demostrac
 3. [Práctica 3](#Practica-3)
 4. [Trabajo en Clase](#Trabajo-en-Clase)
 5. [Práctica 5](#Practica-5)
+6. [Práctica Tree](#Practica-Binary-Search-Tree)
 
 # Practica 1
 - Algoritmo en donde se puede calcular la suma de los primeros numeros de 'N' que el usuario ingrese.
@@ -226,6 +227,9 @@ cd profiling.py
 ```
 python3 profiling.py
 ```
+
+## Presentación
+- https://view.genial.ly/624b75544d077a0012f96d27/presentation-binarysearchtree
 
 ## Recursos
 - https://www.geeksforgeeks.org/difference-between-binary-tree-and-binary-search-tree/ 
